@@ -1,0 +1,51 @@
+@import 'basics.less';
+
+body {
+  margin: 0;
+  padding: 0;
+}
+.app {
+  background-color: #333;
+  font-family: Verdana;
+  min-height: 100vh;
+  h3 {
+    color: whitesmoke;
+    margin: auto auto 20px auto;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    li.bar_container {
+      height: 22px;
+      .country_name {
+        color: #333;
+        font-weight: bold;
+        line-height: 22px;
+        padding: 0 0;
+        position: relative;
+        z-index: 1;
+        img {
+          height: 20px;
+          vertical-align: top;
+          width: 30px;
+        }
+      }
+      .bar {
+        background-color: whitesmoke;
+        color: #333;
+        display: block;
+        height: 20px;
+        line-height: 20px;
+        position: absolute;
+        transition-duration: 0.8s;
+        transition-property: width;
+        .value {
+          display: block;
+          padding: 0 5px;
+          text-align: right;
+        }
+      }
+    }
+  }
+}
