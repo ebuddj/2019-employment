@@ -85,6 +85,7 @@ class App extends Component {
             <li key={item.country} className={style.bar_container}><span className={style.bar} style={item.bar_style}><span className={style.value}><CountUpElement start={item.start} end={item.end} /></span></span><span className={style.country_name}><img src={item.img_src} alt="" /> {item.country}</span></li>
           ))}
         </FlipMove>
+        <p>Source: <a href="https://ec.europa.eu/eurostat/statistics-explained/index.php/Employment_statistics">Eurostat</a></p>
       </div>
     );
   }
