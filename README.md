@@ -6,5 +6,5 @@ High employment level help goverments to cover the cost of society. This visuali
 
 ## How to use
 
-`npm install`
-`npm start`
+* `npm install`
+* `npm start`
