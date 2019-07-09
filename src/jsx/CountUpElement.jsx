@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import style from './../styles/styles.less';
 
-//  https://github.com/glennreyes/react-countup
+// https://github.com/glennreyes/react-countup
 import CountUp from 'react-countup';
 
 class CountUpElement extends Component {
