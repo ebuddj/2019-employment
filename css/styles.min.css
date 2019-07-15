@@ -34,7 +34,7 @@ body {
 }
 .app___2khK2 {
   background-color: #333;
-  font-family: Verdana;
+  font-family: verdana;
   min-height: 100vh;
 }
 .app___2khK2 h3 {
@@ -76,5 +76,11 @@ body {
   display: block;
   padding: 0 5px;
   text-align: right;
+}
+.app___2khK2 p {
+  color: whitesmoke;
+}
+.app___2khK2 p a {
+  color: whitesmoke;
 }
 
